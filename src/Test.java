@@ -2,7 +2,7 @@
 public class Test {
 
 	public static void main(String[] args) {
-		System.out.println("Downald COMMITjj");
+		System.out.println("1");
 	}
 	
 }
