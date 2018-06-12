@@ -118,14 +118,14 @@ public class BaseInterface extends JFrame {
 		sud.setBackground(new Color(128,128,128));
 
 		//Taille de l'écran smartphone
-		setSize(504, 840);
+		setSize(500, 836);
 
 		//Enleve les decorations
 		setUndecorated(true);
 
 		setLocationByPlatform(true);
 		//Specifie la location de la fenetre
-		setLocation(800, 100);
+		setLocationRelativeTo(null);
 		boolean flag = isLocationByPlatform();
 
 		//Ajout d'ActionListener aux boutons

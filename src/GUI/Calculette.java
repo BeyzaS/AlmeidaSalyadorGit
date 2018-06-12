@@ -41,7 +41,7 @@ public class Calculette extends BaseInterface {
 	 * Tableau qui contient les noms des boutons de la calculette
 	 */
 	private String[] tableauString = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0", ".", "=", "C", "+", "-", "*", "/"};
-
+	
 	/**
 	 * Tableau qui contient les boutons de la calculette
 	 */

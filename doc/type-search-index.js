@@ -1,1 +1,1 @@
-typeSearchIndex = [{"p":"GUI","l":"BaseDialog"},{"p":"GUI","l":"BaseInterface"},{"p":"GUI","l":"Calculette"},{"p":"GUI","l":"Contact"},{"p":"Contact","l":"InfoContact"},{"p":"GUI","l":"InterfacePrincipale"},{"p":"Contact","l":"ListeContact"},{"p":"Serialization","l":"Serialisation"},{"p":"MethodeJunit","l":"SerialisationTest"},{"p":"GUI","l":"TestInterfacePrincipale"}]
+typeSearchIndex = [{"p":"Serialization","l":"Serialisation"}]

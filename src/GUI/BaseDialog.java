@@ -114,6 +114,8 @@ public class BaseDialog extends JDialog {
 
 		this.interfacePrinci = interfacePrinci;  
 
+		//Taille de l'écran smartphone
+		setSize(500, 836);
 		//Enleve les decorations
 		setUndecorated(true);
 
@@ -124,11 +126,8 @@ public class BaseDialog extends JDialog {
 
 		setLocationByPlatform(true);
 		//Specifie la location de la fenetre
-		setLocation(800, 100);
+		setLocationRelativeTo(null);
 		boolean flag = isLocationByPlatform();
-
-		//Taille de l'écran smartphone
-		setSize(504, 840);
 
 		//Ajout du panel sud et nord
 		add(sud, BorderLayout.SOUTH);

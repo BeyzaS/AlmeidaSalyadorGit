@@ -57,6 +57,7 @@ public class ListeContact {
 	 * Edition d'un contact
 	 */
 	public void editContact(int ligne, InfoContact ic){
+		System.out.println(contacts.size());
 		contacts.set(ligne, ic);
 		Serialisation.serialisation(contacts, "./Contacts/contact.ser");
 	}

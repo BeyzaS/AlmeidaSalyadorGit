@@ -20,7 +20,7 @@ import Contact.ListeContact;
 public abstract class Serialisation {
 
 	/**
-	 * @author Beyza Salyador & Marco Almeida
+	 * @author Beyza Salyador et Marco Almeida
 	 * Methode qui serialise des données dans un fichier .txt
 	 */
 	public static boolean serialisation(Object object, String path) {
@@ -41,7 +41,7 @@ public abstract class Serialisation {
 	}
 
 	/**
-	 * @author Beyza Salyador & Marco Almeida
+	 * @author Beyza Salyador et Marco Almeida
 	 * Methode qui deserialise des données dans un fichier .txt
 	 */
 	public static Object deseralisation(String path) {
